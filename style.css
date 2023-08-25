@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1440px;
+}
+.header{
+    max-width: 1100px;
+}
+.header .left{
+    display: flex;
+    max-width: 26px;
+}
+.header .left a{
+    color: var(--color-brand-green, #285E67);
+text-align: center;
+}
+.header .right{
+    display: flex;
+    max-width: 347px;
+    margin-left: 1024px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.centre{
+    display: flex;
+    align-items: flex-start;
+}
+section{
+    display: flex;
+}
